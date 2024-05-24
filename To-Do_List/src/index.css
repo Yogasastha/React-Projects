@@ -1,0 +1,131 @@
+/* Footer */
+footer {
+  color: rgb(183, 214, 8);
+  justify-content: center;
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer:hover {
+  color: chartreuse;
+}
+
+/* Header */
+header {
+  color: rgb(127, 255, 0);
+  display: flex;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+/* Paragraph */
+p {
+  color:  rgb(127, 255, 0);
+  padding: 55px;
+  display: flex;
+  letter-spacing: 4px;
+}
+
+/* Div */
+.div {
+  top: 0%;
+  left: 0%;
+  right:0%;
+  display: block;
+  background-color: rgb(81, 75, 75);
+  margin-bottom: 0%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/* Title */
+.title {
+  color: chartreuse;
+  text-decoration: none;
+}
+
+/* Contents */
+.Contents {
+  padding-top: 0%;
+  margin: 2%;
+  justify-content: center;
+  display: flex;
+}
+
+/* List Order */
+.listorder {
+  color: blueviolet;
+  width: 350px;
+  height: 240px;
+  padding: 18px 30px 200px 50px;  
+  display: block;
+  justify-content: space-between;
+  word-spacing: 10px;
+  letter-spacing: 4px;
+  line-height: 35px;
+  border: 2px black solid;
+  background-color: aliceblue;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.listorder:hover {
+  transform: scale(1.05);
+}
+
+/* Label Hover */
+label:hover {
+  cursor: pointer;
+  outline: outset;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  background-color: #ffc800;
+}
+
+/* Add Items */
+.addForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.addForm label {
+  position: absolute;
+  left: -99999px;
+}
+
+.addForm button {
+  padding: 10px;
+  transition: color 0.3s ease;
+  border-radius: 10px;
+  background-color:  rgb(130, 212, 48);
+}
+.addForm input{
+  border-radius: 10px;
+}
+
+.searchForm label {
+  position: absolute;
+  left: -99999px;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-right: 1.8%;
+  font-size: larger;
+}
+
+.searchForm input:hover {
+  transition: color 0.3s ease;
+}
+
+.searchForm input {
+  width: 183px;
+  padding: 5px;
+  transition: color 0.3s ease;
+  border-radius: 10px;
+}
