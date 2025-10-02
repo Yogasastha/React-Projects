@@ -7,7 +7,7 @@ class Header extends Component {
     }
     render() {
         return(
-            <header>
+            <header id="header">
                 {this.surpise()}
                 <h1 className="title">{this.props.title} To-do List</h1>
             </header>
