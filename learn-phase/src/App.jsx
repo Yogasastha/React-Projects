@@ -1,6 +1,7 @@
 import Headers from "./Components/Header";
 import Content from "./Components/Content";
 import Footer from "./Components/Footer";
+import Counter from "./Components/Counter";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
     <Headers title = {title}/>
     <Content />
+    <Counter />
     <Footer expiry = {expiry}/>
     </>
   )
