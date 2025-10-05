@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 
 
 
-const Counter = () => {
+const Counter = ({product, ...props}) => {
     let [count, setCount] = useState(0);
     let msg ;
+    console.log(product.name);
+    console.log(props.name);
     if(count === 5) {
       msg = (
         <div>
